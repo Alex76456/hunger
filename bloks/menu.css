@@ -1,0 +1,36 @@
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 35%;
+    min-height: 100px;
+}
+.menu_position_left {
+    position: absolute;
+    top: 0;
+    left: 80px;
+
+}
+.menu_position_right {
+    position: absolute;
+    top: 0;
+    right: 80px;
+}
+
+.menu__link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Open Sans";
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.menu__link:hover {
+    opacity: 0.5;
+    transition: 0.5s ease;
+}

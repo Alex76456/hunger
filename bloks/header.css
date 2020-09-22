@@ -1,0 +1,127 @@
+.header {
+    background-image: url('../images/header-bg.png');
+    background-size: cover;
+    min-height: 800px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+}
+
+
+.header__content {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.header__subtitle {
+    margin: 0;
+    font-weight: bold;
+    font-family: "Open Sans";
+    letter-spacing: 0.5em;
+    font-size: 12px;
+    line-height: 14px;
+}
+.header__title {
+    margin: 0;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 1.15;
+}
+    
+.header__buttons {
+    width: 440px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 200px;
+    height: 60px;
+    border: 1px solid rgba(255, 255, 255, .2);
+    font-weight: bold;
+    font-family: "Open Sans";
+    font-size: 12px;
+    line-height: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.header__button:hover {
+    border: 1px solid rgba(255, 255, 255, 1);
+    box-shadow: 0 0 15px white;
+}
+
+.header__button_color_yellow {
+    background: #E8C300;
+}
+
+.header__rectangle2 {
+    width: 60px;
+    height: 5.11px;
+}
+
+
+
+
+.header__time {
+    margin: 0;
+    margin-left: 80px;
+    transform: rotate(180deg);
+    width: 60px;
+    height: 698px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 12px;
+    color: white;
+    text-align: center;
+    writing-mode: tb-rl;
+    
+
+}
+
+
+.header__icons {
+    padding: 0;
+    margin: 0;
+    margin-right: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 220px;
+    
+    list-style: none;
+}
+
+
+.header__icon {
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__icon:hover {
+    border: 1px solid rgba(255, 255, 255, 1);
+    box-shadow: 0 0 15px white;
+}

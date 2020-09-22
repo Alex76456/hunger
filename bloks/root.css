@@ -1,0 +1,11 @@
+.root{
+    margin: 0 auto;
+    min-width: 900px;
+    max-width: 1440px;
+    font-family: "Helvetica Neue", "Open Sans", Arial, sans-serif;
+    
+}
+
+/** {
+    outline: 1px solid red;
+}*/
